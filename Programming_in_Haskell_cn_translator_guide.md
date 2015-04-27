@@ -1,0 +1,34 @@
+#《Programming in Haskell》译者指南.
+
+# 介绍 #
+
+## 工具使用 ##
+《Programming in Haskell》中文版使用TeX排版系统，具体采用的是[TeX Live 2010套件](http://www.tug.org/texlive)。
+
+为了便于让译者更多关注于内容的翻译，这里制作了一个简易的[中文TeX模板](https://bigwhite-code.googlecode.com/svn/trunk/tex_template)。该模板基于XeTeX和xeCJK，通过xelatex命令你可以将模板编译成一个pdf文件。
+
+## 源文件组织 ##
+本项目源文件就是一些.tex文件，组织结构如下：
+| **文件** | **用途** |
+|:-----------|:-----------|
+| programming-in-haskell-cn.tex | 主源文件  |
+| half\_title.tex | half\_title  |
+| copyright.tex | 版权声明  |
+| preface.tex | 序言 |
+| translator\_preface.tex | 译者序 |
+| english\_chinese | 中英文对照表  |
+| introduction.tex | 第一章 导言  |
+| first-steps.tex | 第二章 第一步 |
+| types\_and\_classes.tex | 第三章 类型和类 |
+| ... | 待续 |
+
+## 源文件编译 ##
+  * 下载源文件: svn checkout http://programming-in-haskell-cn.googlecode.com/svn/trunk/ programming-in-haskell-cn-read-only
+  * 编译源文件: 进入存放源文件的本地目录，执行xelatex programming-in-haskell-cn.tex
+
+若编译成功，则会在这个目录下生成programming-in-haskell-cn.pdf文件。
+
+## 如何参与本项目 ##
+参与本项目有多种方式，最简单的方式就是参与审校译文，在[Issure](http://code.google.com/p/programming-in-haskell-cn/issues/list)中提出您的意见和建议。
+
+另外如果您对本项目感兴趣，且自愿投入自己宝贵的时间为本项目做些翻译工作，那么请您先查看本项目的最新进展，然后选择一个目前尚未翻译的章节或章节小节尝试进行翻译，将译稿发到我的mail(bigwhite.cn AT gmail dot com)中。如果您的翻译水平得到大家认可，那您将可以成为该项目的Member之一。
